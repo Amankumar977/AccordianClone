@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.questionBox {
+  padding: 1%;
+  font-size: 80%;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 4%;
+  background-color: #ffffff;
+  border: 2px solid rgb(160, 160, 160);
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 3px 4px grey;
+  height: 4rem;
+  justify-content: space-between;
+}
+.button {
+  background-color: pink;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.questionBox p {
+  flex-direction: column;
+}

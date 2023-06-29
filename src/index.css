@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/*================== 
+To Reset the css
+======================*/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*================== 
+Variables
+======================*/
+:root {
+  --purle-color: #f231f2;
+}
+
+body {
+  background-color: var(--purle-color);
+}
